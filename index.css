@@ -1,0 +1,298 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #CBE3E7;
+    font-family: 'space mono';
+    display: block;
+}
+
+.logo {
+    margin-block: 50px;
+    margin-left: 47%;
+}
+
+.container {
+    width: 60%;
+    height: auto;
+    margin-inline: auto;
+    background-color: #ffffff;
+    display: flex;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.calculator-left {
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.5%;
+    margin-right: 5%;
+    margin-block: 3%;
+
+}
+
+.calculator-left input {
+    font-family: 'dosis';
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.calculator-left .input-bill {
+    display: flex;
+    align-items: center;
+}
+
+.calculator-left .input-bill img {
+    position: absolute;
+    margin-left: 1%;
+}
+
+.calculator-left .input-bill input {
+    height: 5vh;
+    text-align: right;
+    width: 100%;
+    background-color: #F4F8FA;
+    border: none;
+    padding-right: 10px;
+}
+
+.calculator-left .input-bill input::placeholder {
+    font-size: 18px;
+    color: #A9B7B7;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.tip-selector .button {
+    width: 31%;
+    height: 2.5vw;
+    background-color: #1B464A;
+    color: #ffffff;
+    border: none;
+    font-family: 'dosis';
+    font-weight: 700;
+    border-radius: 5px;
+    margin-bottom: 0.8vw;
+    font-size: 135%;
+    letter-spacing: 1.3px;
+}
+
+.tip-selector .custom-btn {
+    width: 31%;
+    height: 2.5vw;
+    background-color: #F4F8FA;
+    color: #5A7676;
+    border: none;
+    font-family: 'dosis';
+    font-weight: 700;
+    border-radius: 5px;
+    margin-bottom: 0.8vw;
+    font-size: 135%;
+    letter-spacing: 1.3px;
+}
+
+.inputCustom {
+    display: none;
+}
+
+.inputCustomActive {
+    height: 5vh;
+    text-align: right;
+    width: 100%;
+    background-color: #F4F8FA;
+    border: none;
+    padding-right: 10px;
+}
+
+#inputCustom {
+    margin-top: -5%;
+    font-family: 'dosis';
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 3%;
+    text-align: right;
+}
+
+.tip-selector .active-button {
+    width: 31%;
+    height: 2.5vw;
+    background-color: #5EBFAE;
+    color: #1B464A;
+    border: none;
+    font-family: 'dosis';
+    font-weight: 600;
+    border-radius: 5px;
+    margin-bottom: 0.8vw;
+    font-size: 135%;
+    letter-spacing: 1.3px;
+}
+
+.calculator-left p {
+    margin-bottom: 12px;
+    color: #6D7C7E;
+    font-size: 12px;
+}
+
+.calculator-left .bill {
+    margin-bottom: 5%;
+}
+
+.calculator-left .tip-selector {
+    margin-bottom: 5%;
+}
+
+.calculator-left .input-num {
+    display: flex;
+    align-items: center;
+}
+
+.calculator-left .input-num img {
+    position: absolute;
+    margin-left: 1%;
+}
+
+.calculator-left .input-num input {
+    height: 5vh;
+    text-align: right;
+    width: 100%;
+    background-color: #F4F8FA;
+    border: none;
+    padding-right: 10px;
+}
+
+.calculator-left .input-num input::placeholder {
+    color: #A9B7B7;
+    font-size: 18px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.calculator-right {
+    width: 46%;
+    height: 100%;
+    margin-block: auto;
+
+    background-color: #1B464A;
+    border-radius: 13px;
+    padding: 3%;
+}
+
+.calculator-right h6 {
+    font-size: 12px;
+    color: white;
+}
+
+.calculator-right p {
+    font-size: 10px;
+    color: #86ABAF;
+}
+
+.calculator-right .tip-amount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4%;
+    margin-bottom: 10%;
+}
+
+.calculator-right .tip-amount .tip-output h6 {
+    font-size: 36px;
+    color: #5EC1AE;
+}
+
+.calculator-right .total-amount {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25%;
+}
+
+.calculator-right .total-amount .total-output h6 {
+    font-size: 36px;
+    color: #5EC1AE;
+}
+
+.reset-btn {
+    background-color: #2E666C;
+    width: 100%;
+    height: 2.5vw;
+    border-radius: 5px;
+    border: none;
+    font-family: 'dosis';
+    font-weight: 600;
+    letter-spacing: 1px;
+}
